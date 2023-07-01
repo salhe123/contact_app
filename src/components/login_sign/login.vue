@@ -64,10 +64,3 @@ export default {
 </style>
 ```
 
-This code defines a `LOGIN_MUTATION` 
-that sends a [login request](poe://www.poe.com/_api/key_phrase?phrase=login%20request&prompt=Tell%20me%20more%20about%20login%20request.) 
-to your Hasura GraphQL API using the `login` mutation. It also defines a `login` method
- that uses the `useMutation` hook from [Apollo Client](poe://www.poe.com/_api/key_phrase?phrase=Apollo%20Client&prompt=Tell%20me%20more%20about%20Apollo%20Client.) 
- to perform the mutation. If the login is successful, the [JWT token](poe://www.poe.com/_api/key_phrase?phrase=JWT%20token&prompt=Tell%20me%20more%20about%20JWT%20token.) 
- and [user ID](poe://www.poe.com/_api/key_phrase?phrase=user%20ID&prompt=Tell%20me%20more%20about%20user%20ID.) are stored in `localStorage` and the user is redirected to the home page. 
- Note that in the `login` method, you will need to replace the `localStorage` keys with your own keys.
